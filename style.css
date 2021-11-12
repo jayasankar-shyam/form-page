@@ -146,13 +146,33 @@ form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
+form .user-details .input-box2 {
+  margin-bottom: 15px;
+  width: 100%;
+}
 form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+form .input-box2 span.details {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
 }
 .user-details .input-box input {
   height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box2 input {
+  height: 80px;
   width: 100%;
   outline: none;
   font-size: 16px;
